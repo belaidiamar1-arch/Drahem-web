@@ -1,0 +1,14 @@
+{
+  "updated": "2026-10-14",
+  "loan": {
+    "label": "Taux immobiliers moyens d'octobre 2026, hors assurance",
+    "source": "Pretto",
+    "byYears": { "15": 3.5, "20": 3.66, "25": 3.75 },
+    "consumer": { "label": "Crédit auto / prêt perso", "rate": 7.32, "note": "TAEG moyen, août 2026", "source": "Empruntis" }
+  },
+  "savings": [
+    { "id": "livret-a", "label": "Livret A", "rate": 1.7, "note": "taux depuis le 1er août 2026" },
+    { "id": "lep", "label": "LEP", "rate": 2.5, "note": "sous conditions de revenus" },
+    { "id": "fonds-euros", "label": "Assurance vie", "rate": 2.6, "note": "fonds euros, moyenne 2025, non garanti" }
+  ]
+}
