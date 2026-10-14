@@ -1,0 +1,17 @@
+{
+  "name": "Drahem",
+  "short_name": "Drahem",
+  "description": "Gérez votre argent : comptes, dépenses, revenus récurrents.",
+  "lang": "fr",
+  "start_url": "/Drahem-web/",
+  "scope": "/Drahem-web/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F6F5",
+  "theme_color": "#0F766E",
+  "icons": [
+    { "src": "/Drahem-web/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/Drahem-web/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/Drahem-web/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

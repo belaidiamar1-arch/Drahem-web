@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Drahem</title>
+
+    <!-- Application installable (écran d'accueil iPhone / Android) -->
+    <link rel="manifest" href="/Drahem-web/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/Drahem-web/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Drahem" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        background-color: #f4f6f5;
+      }
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <meta name="theme-color" content="#0F766E">
+<link rel="icon" href="/Drahem-web/favicon.ico"/></head>
+
+  <body>
+    <noscript>Activez JavaScript pour utiliser Drahem.</noscript>
+    <div id="root"></div>
+  <script src="/Drahem-web/_expo/static/js/web/entry-8eb6bac7b2b103eb7ef4fe861893b481.js" defer></script>
+<script>if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('/Drahem-web/sw.js',{scope:'/Drahem-web/'})})}</script></body>
+</html>
